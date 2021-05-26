@@ -1,0 +1,728 @@
+html {
+	font-size: 62.5%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.3;
+	overflow-x: hidden;
+}
+
+main,
+footer {
+	overflow-x: hidden;
+}
+
+
+/*
+===============================================================
+===============================================================
+HOME PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/*
+=======================
+Start Header Section
+=======================
+*/
+.header {
+	background: #EFEAE6;
+	padding: 2rem 0;
+}
+
+/*
+=======================
+Start Banner Section
+=======================
+*/
+.hero-banner-container {
+	max-width: 1275px;
+}
+
+.hero-title {
+	position: absolute;
+	top: 37%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.hero-title a {
+	border: 2px solid #ffffff;
+}
+
+.hero-title a:hover,
+.huile-10 a:hover,
+.nos-btn a:hover {
+	background: #8B6B59;
+	border-color: #8B6B59;
+	color: #FFFFFF;
+}
+
+/*
+=======================
+Start Huile-10 Section
+=======================
+*/
+.huile-10-section {
+	padding-top: 8rem;
+	overflow-x: hidden;
+}
+
+.huile-10 > p {
+	margin-right: -45rem;
+	position: relative;
+	z-index: 111;
+}
+
+.huile-10 > div {
+	max-width: 45rem;
+	position: relative;
+	z-index: 111;
+}
+
+.huile-10 a {
+	border: 2px solid #261712;
+}
+
+.huile-10 img {
+	position: absolute;
+	top: 33%;
+	right: -16rem;
+	z-index: 11;
+}
+
+.huile-10-img img:first-child {
+	margin-left: 8.5rem;
+}
+
+/*
+=======================
+Start Quest-ce Section
+=======================
+*/
+.wrapper {
+	max-width: 1112px;
+}
+
+.quest-ce-img img {
+	position: absolute;
+	top: -9rem;
+	left: 0;
+	z-index: 1;
+}
+
+.quest-ce-text p:first-child {
+	margin-left: -20rem;
+	position: relative;
+	z-index: 11;
+}
+
+/*
+=======================
+Start Nos Section
+=======================
+*/
+.nos-section {
+	padding: 10rem 0 8rem;
+}
+
+.nos-title {
+	max-width: 72.3rem;
+}
+
+.nos-img p:first-child {
+	position: absolute;
+	top: 4rem;
+	left: 33%;
+}
+
+.nos-img p:last-child {
+	position: absolute;
+	right: -28%;
+	bottom: -2.2rem;
+}
+
+.nos-btn a {
+	border: 2px solid #261712;
+}
+
+/*
+=======================
+Start Notre Section
+=======================
+*/
+.notre-section {
+	padding-bottom: 7rem;
+}
+
+.notre-content {
+	max-width: 1870px;
+	padding-left: 10rem;
+}
+
+.notre-content p:first-child {
+	margin-bottom: -5.3rem;
+	position: relative;
+	z-index: 1;
+}
+
+.notre-content p:last-child {
+	margin-top: -3.5rem;
+	max-width: 1040px;
+	padding-right: 3rem;
+}
+
+.notre-img {
+	padding-left: 4.5rem;
+}
+
+/*
+===============================================================
+===============================================================
+L’HUILE 10 NUVEN PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/* 
+=======================
+Start Nuvem Section
+=======================
+*/
+.nuvem-section {
+	padding-top: 12.5rem;
+}
+
+.nuvem-btn form {
+	width: 12.2rem;
+	height: 5rem;
+	border: 1px solid #261712;
+	padding: 0 1rem;
+}
+
+.nuvem-btn form input {
+	padding: 1rem;
+	font-size: 1.6rem;
+	font-family: 'Helvetica 400';
+}
+
+.nuvem-btn a {
+	max-width: 20.4rem;
+	height: 6rem;
+	border: 2px solid #261712;
+}
+
+.nuvem-btn a:hover,
+.nuvem-btn-2 a:first-child:hover {
+	background: #8B6B59;
+	color: #FFFFFF;
+	border-color: #8B6B59;
+	;
+}
+
+.nuvem-btn-2 a {
+	max-width: 34.7rem;
+	height: 5.7rem;
+	line-height: 5.7rem;
+}
+
+.nuvem-btn-2 a:first-child {
+	border: 2px solid #8C6C5A;
+}
+
+.nuvem-left-text {
+	padding-right: 11.5rem;
+}
+
+.nuvem-right-text {
+	padding-left: 11.5rem;
+}
+
+.t-title {
+	border-bottom: 2px solid #261712;
+	;
+}
+
+.qualite-text a::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: #261712;
+}
+
+/* 
+========================
+Start Comment Section
+========================
+*/
+.comment-row > * {
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+.comment-b-text {
+	max-width: 85rem;
+}
+
+/* 
+=======================
+Start Text Section
+=======================
+*/
+.text-section {
+	padding-top: 7rem;
+	padding-bottom: 18rem;
+}
+
+.text-box {
+	max-width: 92rem;
+}
+
+/* 
+=========================
+Start Slider Section
+=========================
+*/
+
+.owl-carousel .owl-nav.disabled,
+.owl-nav {
+	display: block;
+	position: absolute;
+	right: 45px;
+	top: 190px;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+	border-width: 25px 0 25px 30px;
+	border-color: transparent transparent transparent #634A3F;
+
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+	border-width: 25px 30px 25px 0;
+	border-color: transparent #634A3F transparent transparent;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+	background-color: transparent;
+	color: transparent;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+	color: transparent;
+}
+
+.newsletter {
+	max-width: 43rem;
+}
+
+.newsletter input {
+	background: #B6A195;
+	padding-top: .8rem;
+	padding-bottom: .8rem;
+}
+
+.newsletter input::-webkit-input-placeholder {
+	font-size: 1.6rem;
+	color: #261712;
+	font-family: 'Helvetica 400' !important;
+}
+
+.newsletter input::-moz-placeholder {
+	font-size: 1.6rem;
+	color: #261712;
+	font-family: 'Helvetica 400' !important;
+}
+
+.newsletter input:-ms-input-placeholder {
+	font-size: 1.6rem;
+	color: #261712;
+	font-family: 'Helvetica 400' !important;
+}
+
+.newsletter input::-ms-input-placeholder {
+	font-size: 1.6rem;
+	color: #261712;
+	font-family: 'Helvetica 400' !important;
+}
+
+.newsletter input,
+.newsletter input::placeholder {
+	font-size: 1.6rem;
+	color: #261712;
+	font-family: 'Helvetica 400' !important;
+}
+
+.newsletter form button {
+	width: 100%;
+	max-width: 25.6rem;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	border: 2px solid #261712;
+}
+
+.newsletter form button:hover {
+	background: #8B6B59;
+	color: #FFFFFF;
+	border-color: #8B6B59;
+}
+
+
+/*
+===============================================================
+===============================================================
+LECBD PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/* 
+======================
+Start CBD Section
+======================
+*/
+.cbd-section {
+	padding-top: 16rem;
+}
+
+.cbd-box-1 p:nth-child(2) {
+	margin-left: 6rem;
+	position: relative;
+	z-index: 99;
+}
+
+.cbd-box-1 p:last-child {
+	padding-right: 8rem;
+}
+
+.cbd-box-2 {
+	padding-right: 6rem;
+}
+
+.cbd-box-2 p:first-child {
+	margin-top: -2rem;
+}
+
+.cbd-box-2 p:nth-child(2) {
+	padding-left: 5rem;
+}
+
+.cbd-box-2 img {
+	margin-left: -6rem;
+}
+
+/* 
+=======================
+Start Quels Section
+=======================
+*/
+.quels-section {
+	padding-bottom: 15rem;
+}
+
+.cbd-container {
+	max-width: 1150px;
+}
+
+.quels-img img {
+	height: 865px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center;
+	object-position: center;
+}
+
+/* 
+======================
+Start Nuboj Section
+======================
+*/
+.nuboj-text a {
+	border: 2px solid #261712;
+}
+
+.nuboj-text a:hover {
+	background: #8B6B59;
+	color: #FFFFFF;
+	border-color: #8B6B59;
+}
+
+.nuboj-img img {
+	position: absolute;
+	top: -192px;
+	right: 35px;
+}
+
+/* 
+==========================
+Start Newsletter Section
+==========================
+*/
+.newsletter-section {
+	padding-top: 14rem;
+}
+
+
+
+/*
+===============================================================
+===============================================================
+QUALITE PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/* 
+==============================
+Start Qualite Section
+==============================
+*/
+.qualite-tile {
+	max-width: 55.5rem;
+}
+
+.qualite-section {
+	padding-top: 13rem;
+}
+
+.qualite-tile p:first-child {
+	margin-bottom: 11.5rem;
+}
+
+/* 
+==============================
+Start Large IMG Section
+==============================
+*/
+.large-img-content img:first-child {
+	position: absolute;
+	top: -41%;
+	left: 67%;
+}
+
+.large-img-title {
+	max-width: 54.5rem;
+	position: absolute;
+	left: 0;
+	bottom: 305px;
+}
+
+.large-img-container {
+	max-width: 1155px;
+}
+
+.large-img-text {
+	max-width: 69rem;
+}
+
+/* 
+==============================
+Start Tow-Column Section
+==============================
+*/
+.tow-column-section {
+	padding: 16.5rem 0 21rem;
+}
+
+.tow-column-row {
+	margin-left: -4.5rem;
+	margin-right: -4.5rem;
+}
+
+.tow-column-row > * {
+	padding-left: 4.5rem;
+	padding-right: 4.5rem;
+}
+
+
+
+/*
+===============================================================
+===============================================================
+BLOG-1 PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/* 
+=======================
+Start Le Blog Section
+=======================
+*/
+.le-blog-section {
+	padding-top: 15.5rem;
+}
+
+.le-blog-2 {
+	padding-right: 8rem;
+}
+
+.le-blog-tile p:first-child {
+	margin-left: -12rem;
+}
+
+.le-blog-2 img {
+	margin-left: -.1rem;
+}
+
+.le-blog-hr {
+	border: 0;
+	border-bottom: 4px solid #8c6c5a;
+}
+
+/* 
+=======================
+Start Post Section
+=======================
+*/
+.post-row-1 > *:not(:last-child) {
+	margin-bottom: 5rem;
+}
+
+.post-row-2 {
+	margin-left: -2.5rem;
+	margin-right: -2.5rem;
+}
+
+.post-row-2 > * {
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+.post-img img {
+	height: 45rem;
+	-o-object-fit: cover;
+	object-fit: cover;
+	-o-object-position: center;
+	object-position: center;
+}
+
+.post-text a:hover {
+	background: #8B6B59;
+	color: #FFFFFF;
+}
+
+.blog-newsletter {
+	margin-top: 9rem;
+}
+
+
+
+/*
+===============================================================
+===============================================================
+BLOG-2 PAGE STYLE
+===============================================================
+===============================================================
+===============================================================
+*/
+/* 
+=========================
+Start Banner Section
+=========================
+*/
+.blog-banner-section {
+	padding-top: 14rem;
+}
+
+.blog-banner-container {
+	max-width: 1170px;
+}
+
+.blog2-title {
+	width: 100%;
+	max-width: 76rem;
+	position: absolute;
+	bottom: -3rem;
+	left: -5rem;
+}
+
+.blog2-title p {
+	background: rgba(230, 208, 195, 0.7);
+	-webkit-backdrop-filter: blur(-9px);
+	backdrop-filter: blur(-9px);
+}
+
+/* 
+===================================
+Start blog2-desc-text-sec Section
+===================================
+*/
+.blog2-desc-text-sec {
+	padding: 16rem 0 5rem;
+}
+
+.blog2-desc-text-row {
+	margin-left: -2rem;
+	margin-right: -2rem;
+}
+
+.blog2-desc-text-row > * {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+/*
+==========================================
+============================================
+==============================================
+================================================
+All Style End 
+================================================
+==============================================
+============================================
+==========================================
+
+*/
+
+
+/* 
+=====================
+Back To Top
+=====================
+*/
+#up__btn {
+	opacity: 0;
+	position: fixed;
+	bottom: 3rem;
+	right: 3rem;
+	z-index: 99999999999;
+	font-size: 1.8rem;
+	background: #261712;
+	width: 4rem;
+	height: 4rem;
+}
+
+#up__btn:hover {
+	-webkit-transform: translateY(-.7rem);
+	-ms-transform: translateY(-.7rem);
+	transform: translateY(-.7rem);
+}

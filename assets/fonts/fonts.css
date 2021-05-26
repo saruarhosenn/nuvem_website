@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'El Messiri 700';
+	src: url('ElMessiri-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'El Messiri 400';
+	src: url('ElMessiri-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'El Messiri 600';
+	src: url('ElMessiri-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Helvetica 300';
+	src: url('Helvetica-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Helvetica 400';
+	src: url('Helvetica.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Helvetica 700';
+	src: url('Helvetica-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Myriad Pro 700';
+	src: url('MyriadPro-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Myriad Pro 400';
+	src: url('MyriadPro-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.em-700 {
+	font-family: 'El Messiri 700' !important;
+}
+
+.em-600 {
+	font-family: 'El Messiri 600' !important;
+}
+
+.em-400 {
+	font-family: 'El Messiri 400' !important;
+}
+
+.he-700 {
+	font-family: 'Helvetica 700' !important;
+}
+
+.he-400 {
+	font-family: 'Helvetica 400' !important;
+}
+
+.he-300 {
+	font-family: 'Helvetica 400' !important;
+}
+
+.mp-700 {
+	font-family: 'Myriad Pro 700' !important;
+}
+
+.mp-400 {
+	font-family: 'Myriad Pro 400' !important;
+}
